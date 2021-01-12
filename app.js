@@ -32,6 +32,11 @@ guessButton.addEventListener('click', () => {
         feedbackSpace.textContent = 'Too High Guess AGAIN';
     }
 
+    if (guessTracker === 0) {
+        feedbackSpace.textContent = 'Sorry, Out of Attempts';
+        guessButton.style.display = 'none'
+    }
+
 });
 
 
