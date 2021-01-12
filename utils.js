@@ -7,6 +7,5 @@ export function compareNumbers(guess, correctNumber) {
     }
     if (guess === correctNumber) {
         return 0;
-        console.log('yoo');
     }
 } 

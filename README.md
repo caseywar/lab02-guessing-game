@@ -7,6 +7,7 @@
         3) guesses remaing text span area
         4)empty div to show too high/low/correct
 - grab DOM elements with id tags
+
 -initialize state (let)
     -random number: n
     -guesses reamining: 4 (--)
