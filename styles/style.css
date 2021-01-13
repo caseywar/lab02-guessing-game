@@ -6,7 +6,9 @@ body, html {
 }
 body {
     background: url(/assets/stardew.jpg);
-    background-size: 100%;
+    background-size: 1770px 850px;
+    background-repeat: no-repeat;
+    background-position: 0ch;
     display: flex; 
     justify-content: center;
     align-items: center;
