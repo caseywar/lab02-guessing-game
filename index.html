@@ -9,14 +9,19 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/home.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Russo+One&display=swap" rel="stylesheet">
+
+
+
+
+    <title>Number Guesserrrrr</title>
 </head>
 
 <body>
     <header>
-        <div class="gutter-right logo">
-            <img src="assets/big-logo.png" />
-        </div>
+
     </header>
     <main>
         <section class="main-section">
@@ -25,15 +30,23 @@
                 Guess the Number!
             </h2>
             <input id="user-input" type="number">
+            <br>
             <button id="guess-button">GUESS</button>
-            <div>Remaining Guesses: <span id="remaining-guesses">4</span></div>
-            <div id="feedback-space"></div>
+            <div class="remaining-guesses">Remaining Guesses: <span id="remaining-guesses">4</span></div>
+            <br>
+            <div id="feedback-space" class="feedback-space"></div>
+            <br>
+
+            <button onclick="location.href='https://caseywar.github.io/lab02-guessing-game/'" type="button">
+                RESET</button>
+
+            <!-- <a href="https://caseywar.github.io/lab02-guessing-game/">RESET</a> -->
 
 
         </section>
     </main>
     <footer>
-        <div class="copy gutter-right">&copy; 2020 Alchemy Code Lab</div>
+
     </footer>
 
     <script type="module" src="app.js"></script>
