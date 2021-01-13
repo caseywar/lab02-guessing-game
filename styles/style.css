@@ -5,7 +5,7 @@ body, html {
     margin: 0;
 }
 body {
-    background: url(/assets/stardew.jpg);
+    background: url(../assets/stardew.jpg);
     background-size: 1770px 850px;
     background-repeat: no-repeat;
     background-position: 0ch;
