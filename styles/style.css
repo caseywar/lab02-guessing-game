@@ -28,6 +28,10 @@ h2 {
     font-size: 40px;
     font-family: 'Hanalei Fill', cursive;
 }
+.info {
+    font-family: 'Russo One', sans-serif;
+font-size: 10px;
+}
 
 .remaining-guesses {
     font-family: 'Russo One', sans-serif;
